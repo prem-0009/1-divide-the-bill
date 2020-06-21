@@ -20,6 +20,6 @@
 `node main.js total-bill tips-percentage number-of-people` <br>or Keep experimenting.
 
 #### Stretch goal.
->* The app can take total bill and people only too, and leave the tips to be decided by the user.
+>* The app can take total bill and numbers of people only too, and leave the tips to be decided by the user.
 
 
