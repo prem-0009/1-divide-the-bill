@@ -1,10 +1,10 @@
-function divideTheBill(totalBill, tipPercentage, noOfPeople, errors){
-  if(errors){
+function divideTheBill(totalBill, tipPercentage, noOfPeople, fourthNo){
+  if(fourthNo){
     return "input the numbers in correct format. \ntotal bill\ntip percentage \nno of people \nand that's it\ndon't put the fourth number."
   } else {
   
   const perPerson = (totalBill + (tipPercentage/100) * totalBill) / noOfPeople;
-  return Math.round(perPerson);
+  return perPerson.toFixed(2);
   }
 
 

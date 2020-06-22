@@ -5,7 +5,7 @@ function noTips(totalBill, noOfPeople){
         return totalBill + 0.2 * totalBill;
     } else {
         const perPerson = totalBill /noOfPeople;
-        return perPerson;
+        return perPerson.toFixed(2);
     }
 
     // return perPerson;
